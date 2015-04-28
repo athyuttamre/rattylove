@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 
 body {
-  font-family: "myriad pro";
+  font-family: "myriad-pro";
   font-weight: lighter;
 }
 
@@ -113,4 +113,8 @@ blockquote {
 
 h3.profile-name {
   margin-bottom: 0;
+}
+
+.profile-title {
+  font-style: italic;
 }

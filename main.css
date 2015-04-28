@@ -1,3 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+
+body {
+  font-family: "Myriad Pro";
+  font-weight: lighter;
+}
+
 .container {
   width: 100%;
   max-width: 960px !important;
@@ -7,10 +14,17 @@
 
 section {
   min-height: 200px;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 h1, h2 {
   text-align: center;
+  font-weight: lighter;
+}
+
+img {
+  max-width: 100%;
 }
 
 section:nth-child(odd) {
@@ -23,11 +37,11 @@ section:nth-child(odd) {
 
   margin-bottom: 0;
   padding-top: 3%;
-  background-color: #eee;
 }
 
 #splash h1 {
   margin-bottom: 1em;
+  font-family: "Permanent Marker";
 }
 
 .responsive-video {
@@ -55,6 +69,10 @@ section:nth-child(odd) {
     margin-left: -30px;
     margin-right: -30px;
   }
+
+  figure {
+    margin: 1em 0;
+  }
 }
 
 #intro {
@@ -63,4 +81,28 @@ section:nth-child(odd) {
 
 #intro h2 {
   margin-bottom: 3em;
+}
+
+figure {
+  position: relative;
+}
+
+figure img {
+  position: relative;
+  margin-bottom: 1px;
+}
+
+figcaption {
+  max-width: 100%;
+  padding: 12px;
+
+  position: absolute;
+  bottom: 0px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+blockquote {
+  font-size: 1.5em;
 }

@@ -32,7 +32,7 @@ img {
 }
 
 section:nth-child(odd) {
-  background-color: #eee;
+  background-color: #f9f9f9;
 }
 
 #splash {
@@ -87,16 +87,20 @@ section:nth-child(odd) {
   margin-bottom: 3em;
 }
 
+#people .row {
+  margin-bottom: 30px;
+}
+
 figure {
   position: relative;
 }
 
-figure img {
+#people figure img {
   position: relative;
   margin-bottom: 1px;
 }
 
-figcaption {
+#people figcaption {
   max-width: 100%;
   padding: 12px;
 
@@ -117,4 +121,60 @@ h3.profile-name {
 
 .profile-title {
   font-style: italic;
+}
+
+#process {
+   overflow: hidden;
+}
+
+#process .container {
+  position: relative;
+}
+
+#process > .container:before {
+  height: 1500px;
+  width: 3px;
+  z-index: -1;
+
+  content: "";
+  position: absolute;
+  margin-top: -7em;
+  margin-bottom: -5em;
+  margin-left: 5%;
+
+  background-color: #ddd;
+}
+
+#process h2 {
+  margin-bottom: 30px;
+}
+
+.process-step {
+  padding: 0;
+
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  overflow: hidden;
+}
+
+.step-image {
+  margin: 0;
+  padding: 0;
+}
+
+#share-buttons {
+  margin-top: 3em;
+  text-align: center;
+}
+
+footer {
+  background-color: #f9f9f9;
+}
+
+footer .container {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-top: 1px solid #eee;
 }

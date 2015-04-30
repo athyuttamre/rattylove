@@ -43,9 +43,9 @@ section:nth-child(odd) {
   padding-top: 3%;
 }
 
-#splash h1 {
+#splash h1 img{
   margin-bottom: 1em;
-  font-family: "Permanent Marker";
+  width:500px;
 }
 
 .responsive-video {

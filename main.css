@@ -169,6 +169,19 @@ h3.profile-name {
   text-align: center;
 }
 
+#share-buttons > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#share-facebook {
+  margin-right: 10px;
+}
+
+#share-twitter {
+  margin-left: 10px;
+}
+
 footer {
   background-color: #f9f9f9;
 }

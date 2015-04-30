@@ -87,20 +87,16 @@ section:nth-child(odd) {
   margin-bottom: 3em;
 }
 
-#people .row {
-  margin-bottom: 30px;
-}
-
 figure {
   position: relative;
 }
 
-#people figure img {
+.people figure img {
   position: relative;
   margin-bottom: 1px;
 }
 
-#people figcaption {
+.people figcaption {
   max-width: 100%;
   padding: 12px;
 

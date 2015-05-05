@@ -112,6 +112,18 @@ figure {
   color: white;
 }
 
+#jean:before{
+  height:200px;
+  width:100%;
+
+  content:"";
+  position:absolute;
+  top:-200px;
+
+  background: url("images/backgrounds/green-top.png") no-repeat top center;
+  background-size:100%;
+}
+
 #orlando:before {
   height: 200px;
   width: 100%;

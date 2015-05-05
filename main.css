@@ -122,7 +122,7 @@ figure {
 
   content:"";
   position:absolute;
-  top:-200px;
+  top:-100px;
 
   background: url("images/backgrounds/green-top.png") no-repeat top center;
   background-size:100%;

@@ -107,6 +107,10 @@ figure {
   color: white;
 }
 
+#orlando .profile-image{
+  float:right;
+}
+
 blockquote {
   font-size: 1.5em;
 }

@@ -170,7 +170,7 @@ h3.profile-name {
 
 #process {
    overflow: hidden;
-   background: url("images/backgrounds/yams.png") no-repeat top center;
+   background: url("images/backgrounds/yams.jpg") no-repeat top center;
    background-size: auto 100%;
 
    padding-bottom: 0;
@@ -247,10 +247,13 @@ h3.profile-name {
   color: white;
 }
 
-#share-the-love ul{
+#share-the-love ul {
   font-size: 1.5em;
   font-weight: 400;
   list-style-type: none;
+
+  max-width: 600px;
+  margin: auto;
 }
 
 #share-the-love ul p {

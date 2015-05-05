@@ -203,13 +203,16 @@ h3.profile-name {
 }
 
 #basil-pesto {
-  text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
-.process-header{
+.process-header {
   max-width: 80%;
+  display: block;
+  margin: auto;
+
+  margin-bottom: 1.5em;
 }
 
 #dishwash {

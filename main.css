@@ -233,6 +233,15 @@ h3.profile-name {
   color: white;
 }
 
+#share-the-love ul{
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+#share-the-love ul .fa{
+  margin-right: 10px;
+}
+
 #share-buttons {
   margin-top: 3em;
   text-align: center;

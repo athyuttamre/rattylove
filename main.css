@@ -9,6 +9,10 @@ p {
   font-size: 18px;
 }
 
+strong {
+  font-weight: 400;
+}
+
 .container {
   width: 100%;
   max-width: 960px !important;
@@ -224,14 +228,11 @@ h3.profile-name {
   display: block;
   margin: auto;
 
-  margin-bottom: 1.5em;
+  margin-bottom: 2.5em;
 }
 
-#dishwash {
-  text-align: center;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  background-color: #FCFAF5;
+#dishwash .process-header {
+  margin-top: 5em;
 }
 
 #dishwash-images {
@@ -252,20 +253,25 @@ h3.profile-name {
   list-style-type: none;
 }
 
-#share-the-love ul p{
+#share-the-love ul p {
   font-weight:300;
 }
 
-#share-the-love li:before{
+#share-the-love li:before {
   font-family: 'FontAwesome';
+  font-size: 14px;
   content: '\f054';
-  margin:0 5px 0 -15px;
+  margin:0 20px 0 -20px;
   color: #000;
 }
 
+#share-the-love li p {
+  margin-left: 10px;
+}
+
 #share-buttons {
-  margin-top: 3em;
-  text-align: center;
+  margin-top: 1em;
+  margin-left: 15px;
 }
 
 #share-buttons > div {

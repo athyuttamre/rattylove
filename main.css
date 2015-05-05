@@ -215,6 +215,12 @@ h3.profile-name {
   margin-bottom: 1.5em;
 }
 
+#dishwash {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 #share-the-love h2 {
   background: url("images/backgrounds/red-3.png") no-repeat top center;
   background-size: 100%;

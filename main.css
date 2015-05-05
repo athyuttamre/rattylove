@@ -239,10 +239,18 @@ h3.profile-name {
 #share-the-love ul{
   font-size: 1.5em;
   font-weight: 400;
+  list-style-type: none;
 }
 
-#share-the-love ul .fa{
-  margin-right: 10px;
+#share-the-love ul p{
+  font-weight:300;
+}
+
+#share-the-love li:before{
+  font-family: 'FontAwesome';
+  content: '\f054';
+  margin:0 5px 0 -15px;
+  color: #000;
 }
 
 #share-buttons {

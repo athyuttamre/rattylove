@@ -32,7 +32,7 @@ img {
 }
 
 section:nth-child(odd) {
-  background-color: #f9f9f9;
+  background-color: #FCFAF5;
 }
 
 #splash {
@@ -97,7 +97,7 @@ figure {
 }
 
 .people figcaption {
-  max-width: 100%;
+  width: 100%;
   padding: 12px;
 
   position: absolute;
@@ -121,6 +121,10 @@ h3.profile-name {
 
 #process {
    overflow: hidden;
+   background: url("images/backgrounds/yams.png") no-repeat top center;
+   background-size: 100%;
+
+   padding-bottom: 0;
 }
 
 #process .container {
@@ -143,6 +147,25 @@ h3.profile-name {
 
 #process h2 {
   margin-bottom: 30px;
+  color: white;
+
+  background: url("images/backgrounds/process-grey.png") no-repeat top center;
+  background-size: 40%;
+  padding: 50px 0;
+}
+
+#process-content {
+  padding: 50px;
+  margin-bottom: -5px;
+
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#process-content .lead {
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 .process-step {
@@ -158,6 +181,14 @@ h3.profile-name {
 .step-image {
   margin: 0;
   padding: 0;
+}
+
+#share-the-love h2 {
+  background: url("images/backgrounds/red-3.png") no-repeat top center;
+  background-size: 100%;
+
+  padding: 180px 0;
+  color: white;
 }
 
 #share-buttons {

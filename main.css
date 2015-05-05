@@ -205,8 +205,6 @@ h3.profile-name {
 #basil-pesto {
   padding-top: 2em;
   padding-bottom: 2em;
-  border:1px solid #ddd;
-  border-radius: 5px;
 }
 
 .process-header {
@@ -222,8 +220,6 @@ h3.profile-name {
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: #FCFAF5;
-  border: 1px solid #ddd;
-  border-radius: 5px;
 }
 
 #dishwash-images {

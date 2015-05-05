@@ -205,6 +205,8 @@ h3.profile-name {
 #basil-pesto {
   padding-top: 2em;
   padding-bottom: 2em;
+  border:1px solid #ddd;
+  border-radius: 5px;
 }
 
 .process-header {

@@ -47,7 +47,7 @@ section:nth-child(odd) {
   padding-top: 3%;
 }
 
-#splash h1 img{
+#splash h1 img {
   margin-bottom: 1em;
   width:500px;
 }
@@ -84,11 +84,11 @@ section:nth-child(odd) {
 }
 
 #intro {
-  padding-top: 10em;
+  padding: 10em 0;
 }
 
 #intro h2 {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 figure {
@@ -122,7 +122,7 @@ figure {
 
   content: "";
   position: absolute;
-  top: -5%;
+  top: -100px;
 
   background: url("images/backgrounds/green-top.png") no-repeat top center;
   background-size: 100%;
@@ -156,31 +156,13 @@ h3.profile-name {
    padding-bottom: 0;
 }
 
-#process .container {
-  position: relative;
-}
-
-#process > .container:before {
-  height: 1500px;
-  width: 3px;
-  z-index: -1;
-
-  content: "";
-  position: absolute;
-  margin-top: -7em;
-  margin-bottom: -5em;
-  margin-left: 5%;
-
-  background-color: #ddd;
-}
-
 #process h2 {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: white;
 
   background: url("images/backgrounds/process-grey.png") no-repeat top center;
-  background-size: 40%;
-  padding: 50px 0;
+  background-size: auto 100%;
+  padding: 8% 0;
 }
 
 #process-content {
@@ -196,6 +178,11 @@ h3.profile-name {
 #process-content .lead {
   text-align: center;
   margin-bottom: 2em;
+  font-size: 21px;
+}
+
+#process-content img:nth-child(2) {
+  margin: 15px auto;
 }
 
 #basil-pesto {
@@ -212,7 +199,7 @@ h3.profile-name {
 }
 
 #dishwash .process-header {
-  margin-top: 5em;
+  margin-top: 2.5em;
 }
 
 #dishwash-images {
@@ -221,40 +208,34 @@ h3.profile-name {
 
 #share-the-love h2 {
   background: url("images/backgrounds/red-3.png") no-repeat top center;
-  background-size: 100%;
+  background-size: auto 100%;
 
-  padding: 180px 0;
+  margin-bottom: 1em;
+  padding: 15% 0;
   color: white;
 }
 
 #share-the-love ul {
   font-size: 1.5em;
   font-weight: 400;
-  list-style-type: none;
 
   max-width: 600px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: auto;
 }
 
+#share-the-love .fa {
+  font-size: 16px;
+  top: 8px;
+}
+
 #share-the-love ul p {
-  font-weight:300;
-}
-
-#share-the-love li:before {
-  font-family: 'FontAwesome';
-  font-size: 14px;
-  content: '\f054';
-  margin:0 20px 0 -20px;
-  color: #000;
-}
-
-#share-the-love li p {
-  margin-left: 10px;
+  font-weight: 300;
 }
 
 #share-buttons {
   margin-top: 1em;
-  margin-left: 15px;
 }
 
 #share-buttons > div {
@@ -284,6 +265,20 @@ footer .container {
 
 @media (max-width: 768px) {
   .people:before {
+    top: -5%;
     background-size: auto 120px;
+  }
+
+  #process h2 {
+    margin-bottom: 20%;
+  }
+
+  #process-content {
+    padding: 25px;
+  }
+
+  .process-header {
+    max-width: 100%;
+    margin-bottom: 15px;
   }
 }

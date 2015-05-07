@@ -116,44 +116,24 @@ figure {
   color: white;
 }
 
-#jean:before{
-  height:200px;
-  width:100%;
+.people:before {
+  height: 200px;
+  width: 100%;
 
-  content:"";
-  position:absolute;
-  top:-100px;
+  content: "";
+  position: absolute;
+  top: -5%;
 
   background: url("images/backgrounds/green-top.png") no-repeat top center;
-  background-size:100%;
+  background-size: 100%;
 }
 
 #orlando:before {
-  height: 200px;
-  width: 100%;
-
-  content: "";
-  position: absolute;
-  top: -100px;
-
-  background: url("images/backgrounds/red-top.png") no-repeat top center;
-  background-size: 100%;
-}
-
-#orlando .profile-image {  
-  float: right;
+  background-image: url("images/backgrounds/red-top.png");
 }
 
 #bobby:before {
-  height: 200px;
-  width: 100%;
-
-  content: "";
-  position: absolute;
-  top: -100px;
-
-  background: url("images/backgrounds/blue-top.png") no-repeat top center;
-  background-size: 100%;
+  background-image: url("images/backgrounds/blue-top.png");
 }
 
 blockquote {
@@ -298,4 +278,12 @@ footer .container {
   padding-top: 2em;
   padding-bottom: 2em;
   border-top: 1px solid #eee;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .people:before {
+    background-size: auto 120px;
+  }
 }
